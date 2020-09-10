@@ -40,13 +40,14 @@
 <a taskid="1466" href="https://www.dropbox.com/s/mv3edtmurrr53kc/GLP_Installer_95847398463_8_ball_pool.exe?dl=1" target="_blank" class="download-btn halo-report" data-first_column="64000011" data-slot="1" data-click_action="300" data-stats="main_download" data-supplyid="900206483" data-pkgname="" id="download">
 <img class="btn-default" data-src="1801ea286bc69bc1de52266b8e08b2e9.png" alt="">
 <img class="btn-hover" data-src="36c2feaab7db33255766dbffc6ab0ea6.png" alt="">
-</a><p>Your License Number: <span id="copytext1" onclick="copytext('#copytext1')">F123-1554-QPO8-3454</span></a>
+</a><p>Your License Number: <span id="copytext1" onclick="copytext('#copytext1')">F123-1554-QPO8-3454</span></a></p>
 <script>
 function copytext(el) {
     var $tmp = $("<textarea>");
     $("body").append($tmp);
     $tmp.val($(el).text()).select();
     document.execCommand("copy");
+	alert ('Your License Number Copied!');
     $tmp.remove();
 }
 </script>
